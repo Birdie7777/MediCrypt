@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Prescription</title>
+    <link rel="stylesheet" href="css/styles-2.css">
+</head>
+<body>
+    <header>
+        <h1>Upload Prescription</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Upload Prescription Proof</h2>
+            <form id="prescriptionForm" enctype="multipart/form-data">
+                <label for="prescription">Choose File:</label>
+                <input type="file" id="prescription" name="prescription" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" required>
+                <button type="submit">Upload</button>
+                <a href="choose-medicine.html">Next</a>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Medico. All rights reserved.</p>
+    </footer>
+</body>
+</html>
